@@ -1,0 +1,37 @@
+Second Order Plotter
+========================================================
+author: Thales Mello
+date: Sun, June 21
+
+========================================================
+
+# The ultimate plotter is _**here**_.
+
+Simply elegant
+========================================================
+
+This application helps you to play around with second order
+polynomials. It's simple and ellegantly built so that you
+can enhance your math learning.
+
+- Simple
+- Easy to use
+- Enhance your learning
+
+Move the sliders...
+========================================================
+
+![Move the sliders](./sliders.png)
+
+We do the R magic for you!
+========================================================
+
+
+```r
+a <- 1; b <- 1; c <- 1
+x <- seq(-20, 20, length = 100)
+y <- a * x ^ 2 + b * x + c
+plot(x, y, type = "l")
+```
+
+![plot of chunk unnamed-chunk-1](second_order_plot_presentation-figure/unnamed-chunk-1-1.png) 

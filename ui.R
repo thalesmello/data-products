@@ -5,7 +5,9 @@ shinyUI(fluidPage(
   
   sidebarLayout(
     sidebarPanel(
+      p("Move the sliders in order to see the graph change. The relationship between x, y and the coefficients is given by the equation down below."),
       p("y = ax² + bx + c", align = "center"),
+      
       sliderInput("a",
                   "First coefficient (a):",
                   min = -10,
